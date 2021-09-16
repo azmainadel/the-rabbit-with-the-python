@@ -12,9 +12,3 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-man
 # 3.8.x support timeline: https://www.rabbitmq.com/versions.html
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.8-management
 ```
-
----
-
-### 1. Producer-Consumer:
-
-Run `consume.py` first, and then `produce.py`
